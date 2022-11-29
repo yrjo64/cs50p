@@ -1,0 +1,45 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\"",
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/nutrition",
+		},
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/plates",
+		},
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/src",
+		},
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/src0",
+		},
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/src1",
+		},
+		{
+			"path": "/home/yrjo/workspace/stuff/python/cs50p/src2",
+		},
+	],
+	"settings": {
+        "LSP": {
+            "pylsp": {
+                "enabled": true,
+                "command": [
+                    "/home/yrjo/workspace/stuff/python/cs50p/nutrition/.venv/bin/pylsp",
+                ],
+                "settings": {
+                    "pylsp.plugins.flake8.executable": "/home/yrjo/workspace/stuff/python/cs50p/nutrition/.venv/bin/flake8",
+                },
+            },
+        },
+    },
+}

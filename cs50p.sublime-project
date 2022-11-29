@@ -1,0 +1,32 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\"",
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "nutrition",
+		},
+		{
+			"path": "plates",
+		},
+		{
+			"path": "src",
+		},
+		{
+			"path": "src0",
+		},
+		{
+			"path": "src1",
+		},
+		{
+			"path": "src2"
+		},
+	],
+}

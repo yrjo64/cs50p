@@ -1,0 +1,987 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"swap_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "╭─    ~                                                                                                  ✔  \n╰─ \n╭─    ~                                                                                                  ✔  \n╰─ cd workspace/stuff/python/qpbe3e\n╭─    ~/workspace/stuff/python/qpbe3e  on   main                                                      ✔  \n╰─ ls -la                                                                                                        \ndrwxr-xr-x   - yrjo 27 marras 01:15  .git\ndrwxr-xr-x   - yrjo 26 marras 21:10  code\ndrwxr-xr-x   - yrjo 26 marras 21:10  exercise_answers\n.rw-r--r-- 130 yrjo 26 marras 21:10  README.md\n╭─    ~/workspace/stuff/python/qpbe3e  on   main                                                      ✔  \n╰─ python -m                                                                                                     \nArgument expected for the -m option\nusage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...\nTry `python -h' for more information.\n╭─    ~/workspace/stuff/python/qpbe3e  on   main                                                    2 ✘  \n╰─ python -m venv .venv\n╭─    ~/workspace/stuff/python/qpbe3e  on   main ?1                                      ✔  took 11s   \n╰─ source .venv/bin/activate\n╭─    ~/workspace/stuff/python/qpbe3e  on   main ?1                                        ✔  qpbe3e   \n╰─ ",
+			"settings":
+			{
+				"buffer_size": 1460,
+				"line_ending": "Unix",
+				"name": "Login Shell",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/yrjo/workspace/stuff/python/cs50p/pyproject.toml",
+			"settings":
+			{
+				"buffer_size": 682,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "def main():\n    fruits = {'Apple': 130,\n              'Avocado': 50,\n              'Banana': 110,\n              'Cantaloupe': 50,\n              'Grapefruit': 60,\n              'Grapes': 90,\n              'Melon': 50,\n              'Kiwifruit': 90,\n              'Lemon': 15,\n              'Lime': 20,\n              'Nectarine': 60,\n              'Orange': 80,\n              'Peach': 60,\n              'Pear': 100,\n              'Pineapple': 50,\n              'Plums': 70,\n              'Strawberies': 50,\n              'Sweet Cherries': 100,\n              'Tangerine': 50,\n              'Watermelon': 80\n              }\n    fruit = input('Item: ').lower().title()\n    calories = fruits.get(fruit, None)\n    if calories:\n        print(f'Calories: {calories}')\n\n    n: int = 0\n    n += \"foo\"\n\n\nif __name__ == '__main__':\n    main()\n",
+			"file": "nutrition.py",
+			"file_size": 788,
+			"file_write_time": 133139784865241325,
+			"settings":
+			{
+				"buffer_size": 830,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAM0CAAAAAAAAzgIAAAAAAAAAAAAAzgIAAAAAAADWAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQIAAAAAAADNAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAANYCAAAAAAAA1wIAAAAAAAAAAAAA1wIAAAAAAADfAgAAAAAAAAAAAADOAgAAAAAAAM4CAAAAAAAACAAAACAgICAgICAg",
+					"AQAAAAAAAAABAAAA1gIAAAAAAADWAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"left_delete",
+					null,
+					"AQAAANMCAAAAAAAA0wIAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAA1wIAAAAAAADXAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAANMCAAAAAAAA1AIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wIAAAAAAADTAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAANQCAAAAAAAA1QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AIAAAAAAADUAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANUCAAAAAAAA1gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QIAAAAAAADVAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAANYCAAAAAAAA1wIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gIAAAAAAADWAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAANcCAAAAAAAA2AIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1wIAAAAAAADXAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "t"
+					},
+					"AQAAANgCAAAAAAAA2QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AIAAAAAAADYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANkCAAAAAAAA2gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QIAAAAAAADZAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AQAAANoCAAAAAAAA2wIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANsCAAAAAAAA3AIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wIAAAAAAADbAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAANwCAAAAAAAA3QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AIAAAAAAADcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAN0CAAAAAAAA3gIAAAAAAAAAAAAA3gIAAAAAAADiAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3QIAAAAAAADdAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAAOICAAAAAAAA4wIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gIAAAAAAADiAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOMCAAAAAAAA5AIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4wIAAAAAAADjAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "+"
+					},
+					"AQAAAOQCAAAAAAAA5QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AIAAAAAAADkAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AQAAAOUCAAAAAAAA5gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5QIAAAAAAADlAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOYCAAAAAAAA5wIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5gIAAAAAAADmAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAOcCAAAAAAAA6QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wIAAAAAAADnAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAAOgCAAAAAAAA6QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6AIAAAAAAADoAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "oo"
+					},
+					"AgAAAOkCAAAAAAAA6gIAAAAAAAAAAAAA6gIAAAAAAADrAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6QIAAAAAAADpAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAOwCAAAAAAAA7QIAAAAAAAAAAAAA7QIAAAAAAADxAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AIAAAAAAADsAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"trim_trailing_white_space",
+					null,
+					"AQAAAO0CAAAAAAAA7QIAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAA8QIAAAAAAADxAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"auto_pep8_replace",
+					{
+						"a": 0,
+						"b": 788,
+						"text": "def main():\n    fruits = {'Apple': 130,\n              'Avocado': 50,\n              'Banana': 110,\n              'Cantaloupe': 50,\n              'Grapefruit': 60,\n              'Grapes': 90,\n              'Melon': 50,\n              'Kiwifruit': 90,\n              'Lemon': 15,\n              'Lime': 20,\n              'Nectarine': 60,\n              'Orange': 80,\n              'Peach': 60,\n              'Pear': 100,\n              'Pineapple': 50,\n              'Plums': 70,\n              'Strawberies': 50,\n              'Sweet Cherries': 100,\n              'Tangerine': 50,\n              'Watermelon': 80\n              }\n    fruit = input('Item: ').lower().title()\n    calories = fruits.get(fruit, None)\n    if calories:\n        print(f'Calories: {calories}')\n\n    n: int = 0\n    n += \"foo\"\n\n\nif __name__ == '__main__':\n    main()\n"
+					},
+					"AQAAAAAAAAAAAAAAPgMAAAAAAAAUAwAAZGVmIG1haW4oKToKICAgIGZydWl0cyA9IHsnQXBwbGUnOjEzMCwKICAgICAgICAgICAgICdBdm9jYWRvJzo1MCwKICAgICAgICAgICAgICdCYW5hbmEnOjExMCwKICAgICAgICAgICAgICdDYW50YWxvdXBlJzo1MCwKICAgICAgICAgICAgICdHcmFwZWZydWl0Jzo2MCwKICAgICAgICAgICAgICdHcmFwZXMnOjkwLAogICAgICAgICAgICAgJ01lbG9uJzo1MCwKICAgICAgICAgICAgICdLaXdpZnJ1aXQnOjkwLAogICAgICAgICAgICAgJ0xlbW9uJzoxNSwKICAgICAgICAgICAgICdMaW1lJzoyMCwKICAgICAgICAgICAgICdOZWN0YXJpbmUnOjYwLAogICAgICAgICAgICAgJ09yYW5nZSc6ODAsCiAgICAgICAgICAgICAnUGVhY2gnOjYwLAogICAgICAgICAgICAgJ1BlYXInOjEwMCwKICAgICAgICAgICAgICdQaW5lYXBwbGUnOjUwLAogICAgICAgICAgICAgJ1BsdW1zJzo3MCwKICAgICAgICAgICAgICdTdHJhd2Jlcmllcyc6NTAsCiAgICAgICAgICAgICAnU3dlZXQgQ2hlcnJpZXMnOjEwMCwKICAgICAgICAgICAgICdUYW5nZXJpbmUnOjUwLAogICAgICAgICAgICAgJ1dhdGVybWVsb24nOjgwCiAgICAgICAgICAgICB9CiAgICBmcnVpdCA9IGlucHV0KCdJdGVtOiAnKS5sb3dlcigpLnRpdGxlKCkKICAgIGNhbG9yaWVzID0gZnJ1aXRzLmdldChmcnVpdCxOb25lKQogICAgaWYgY2Fsb3JpZXM6CiAgICAgICAgcHJpbnQoZidDYWxvcmllczoge2NhbG9yaWVzfScpCgogICAgbjogaW50ID0gMAogICAgbiArPSAiZm9vIgoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCk",
+					"AQAAAAAAAAABAAAA7AIAAAAAAADsAgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "nutrition.sublime-project",
+			"settings":
+			{
+				"buffer_size": 1024,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAE0CAAAAAAAATgIAAAAAAAAAAAAATgIAAAAAAABPAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQIAAAAAAABNAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"",
+					null,
+					"AQAAAE8CAAAAAAAAxwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwIAAAAAAABPAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPMCAAAAAAAA8wIAAAAAAAABAAAAPg",
+					"AQAAAAAAAAABAAAA9AIAAAAAAAD0AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					25,
+					"left_delete",
+					null,
+					"GQAAAPICAAAAAAAA8gIAAAAAAAABAAAAVvECAAAAAAAA8QIAAAAAAAABAAAATvACAAAAAAAA8AIAAAAAAAABAAAARe8CAAAAAAAA7wIAAAAAAAABAAAAVu4CAAAAAAAA7gIAAAAAAAABAAAAX+0CAAAAAAAA7QIAAAAAAAABAAAAUuwCAAAAAAAA7AIAAAAAAAABAAAAVesCAAAAAAAA6wIAAAAAAAABAAAAT+oCAAAAAAAA6gIAAAAAAAABAAAAWekCAAAAAAAA6QIAAAAAAAABAAAAX+gCAAAAAAAA6AIAAAAAAAABAAAAT+cCAAAAAAAA5wIAAAAAAAABAAAAVOYCAAAAAAAA5gIAAAAAAAABAAAAX+UCAAAAAAAA5QIAAAAAAAABAAAASOQCAAAAAAAA5AIAAAAAAAABAAAAVOMCAAAAAAAA4wIAAAAAAAABAAAAQeICAAAAAAAA4gIAAAAAAAABAAAAUOECAAAAAAAA4QIAAAAAAAABAAAAX+ACAAAAAAAA4AIAAAAAAAABAAAARd8CAAAAAAAA3wIAAAAAAAABAAAAVN4CAAAAAAAA3gIAAAAAAAABAAAAVd0CAAAAAAAA3QIAAAAAAAABAAAATNwCAAAAAAAA3AIAAAAAAAABAAAAT9sCAAAAAAAA2wIAAAAAAAABAAAAU9oCAAAAAAAA2gIAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAA8wIAAAAAAADzAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					2,
+					"left_delete",
+					null,
+					"AgAAANkCAAAAAAAA2QIAAAAAAAABAAAAQdgCAAAAAAAA2AIAAAAAAAABAAAAPA",
+					"AQAAAAAAAAABAAAA2gIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"paste",
+					null,
+					"AQAAANgCAAAAAAAACQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AIAAAAAAADYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAAkDAAAAAAAACgMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQMAAAAAAAAJAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAAoDAAAAAAAACwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgMAAAAAAAAKAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "v"
+					},
+					"AQAAAAsDAAAAAAAADAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACwMAAAAAAAALAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAAwDAAAAAAAADQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAMAAAAAAAAMAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "nv"
+					},
+					"AgAAAA0DAAAAAAAADgMAAAAAAAAAAAAADgMAAAAAAAAPAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADQMAAAAAAAANAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"paste",
+					null,
+					"AgAAAIUDAAAAAAAAtgMAAAAAAAAAAAAAtgMAAAAAAAC2AwAAAAAAABwAAAA8QUJTT0xVVEVfUEFUSF9UT19ZT1VSX1ZFTlY+",
+					"AQAAAAAAAAABAAAAoQMAAAAAAACFAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAALYDAAAAAAAAtwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgMAAAAAAAC2AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAALcDAAAAAAAAuAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwMAAAAAAAC3AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": "v"
+					},
+					"AQAAALgDAAAAAAAAuQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAMAAAAAAAC4AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAALkDAAAAAAAAugMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQMAAAAAAAC5AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "nv"
+					},
+					"AgAAALoDAAAAAAAAuwMAAAAAAAAAAAAAuwMAAAAAAAC8AwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugMAAAAAAAC6AwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n\n\n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n\n                                       The Sublime Text 3 Python IDE\n\n\n  Welcome to anaconda, the Sublime Text 3 Python IDE. We hope you enjoy it :)\n\n  Anaconda works fine out of the box but you can configure it to totally adapt\n  it to your needs or style.\n\n  For a complete guide of use and configuration take a look at:\n\n    http://damnwidget.github.io/anaconda/\n\n  Please, consider donating via PayPal to maintain this project alive:\n\n    https://tinyurl.com/y7ktgzx6\n\nGitGutter\n---------\n\n  Thanks for installing Git Gutter!!!\n\n  👣 Follow me: @jisaacks\n\n\n  💛 Git Gutter? Want to support development?\n\n  I've teamed up with Wes Bos to offer the following discounts:\n\n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n\n  🏅 ⭐ ES6 ⭐\n\n  👉 ES6.io/friend/GITGUTTER\n\n  🏅 ⭐ Sublime Text Book ⭐\n\n  👉 SublimeTextBook.com/friend/GITGUTTER\n\n  🏅 ⭐ React For Beginners ⭐\n\n  👉 ReactForBeginners.com/friend/GITGUTTER\n\n\n  Join 15,000 other developers already learning with Wes Bos.\n\n  These are fantastic resources - 100% money back guarantee! 🌟\n\nAutoPEP8\n--------\n\n  Sublime Auto PEP8 Formatting\n  (https://github.com/wistful/SublimeAutoPEP8)\n\n  Automatically formats Python code to conform to the PEP 8 style guide using autopep8 module\n  Supports ST3 only.\n\n  **Note**: The _walrus_(`if thing := foo.bar.baz: pass`) operator is not supported. \n  Auto-formatting is running by SublimeText python interpreter, \n  which is locked to version 3.3, and _walrus_ operator is supporter starting python3.8.\n\n  Features:\n      format / preview code according PEP8\n      format / preview selected text\n      format / preview all python modules in folder\n      side bar menu\n      formated code while saving\n\n  Using:\n      SideBar - right click on the file(s) or folder(s)\n      Active view - right click on the view\n      Selected text - right click on the selected text\n      On Save - provide by settings: option format_on_save\n      Command Palette - bring up the Command Palette and select `PEP8: Format Code` or `PEP8: Preview Changes`\n      Hotkeys - `Command/Control + Shift + 8` to format code, `Command/Control + 8` to preview changes\n\nSublimeLinter\n-------------\n\n\n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n\n\n  Welcome to SublimeLinter, a linter framework for Sublime Text.\n\n  Linters are not included, they must be installed separately.\n  Get them from Package Control: https://packagecontrol.io/search/SublimeLinter\n\n\n  For complete documentation on how to use and configure SublimeLinter,\n  please see: http://www.sublimelinter.com\n\n  To report issues: https://github.com/SublimeLinter/SublimeLinter",
+			"settings":
+			{
+				"buffer_size": 3433,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n\n\n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n\n                                       The Sublime Text 3 Python IDE\n\n\n  Welcome to anaconda, the Sublime Text 3 Python IDE. We hope you enjoy it :)\n\n  Anaconda works fine out of the box but you can configure it to totally adapt\n  it to your needs or style.\n\n  For a complete guide of use and configuration take a look at:\n\n  \thttp://damnwidget.github.io/anaconda/\n\n  Please, consider donating via PayPal to maintain this project alive:\n\n  \thttps://tinyurl.com/y7ktgzx6"
+					},
+					"KwAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACGAAAAAAAAAAAAAACGAAAAAAAAAMoAAAAAAAAAAAAAAMoAAAAAAAAAywAAAAAAAAAAAAAAywAAAAAAAAAPAQAAAAAAAAAAAAAPAQAAAAAAABABAAAAAAAAAAAAABABAAAAAAAAVAEAAAAAAAAAAAAAVAEAAAAAAABVAQAAAAAAAAAAAABVAQAAAAAAAFYBAAAAAAAAAAAAAFYBAAAAAAAAmgEAAAAAAAAAAAAAmgEAAAAAAACbAQAAAAAAAAAAAACbAQAAAAAAAJwBAAAAAAAAAAAAAJwBAAAAAAAAnQEAAAAAAAAAAAAAnQEAAAAAAADqAQAAAAAAAAAAAADqAQAAAAAAAOsBAAAAAAAAAAAAAOsBAAAAAAAA7AEAAAAAAAAAAAAA7AEAAAAAAAA6AgAAAAAAAAAAAAA6AgAAAAAAADsCAAAAAAAAAAAAADsCAAAAAAAAVwIAAAAAAAAAAAAAVwIAAAAAAABYAgAAAAAAAAAAAABYAgAAAAAAAFkCAAAAAAAAAAAAAFkCAAAAAAAAmAIAAAAAAAAAAAAAmAIAAAAAAACZAgAAAAAAAAAAAACZAgAAAAAAAJoCAAAAAAAAAAAAAJoCAAAAAAAAwwIAAAAAAAAAAAAAwwIAAAAAAADEAgAAAAAAAAAAAADEAgAAAAAAAMUCAAAAAAAAAAAAAMUCAAAAAAAACwMAAAAAAAAAAAAACwMAAAAAAAAMAwAAAAAAAAAAAAAMAwAAAAAAAA0DAAAAAAAAAAAAAA0DAAAAAAAALQMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "\n\nGitGutter\n---------\n\n  Thanks for installing Git Gutter!!!\n\n  👣 Follow me: @jisaacks\n\n\n  💛 Git Gutter? Want to support development?\n\n  I've teamed up with Wes Bos to offer the following discounts:\n\n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n\n  🏅 ⭐ ES6 ⭐\n\n  👉 ES6.io/friend/GITGUTTER\n\n  🏅 ⭐ Sublime Text Book ⭐\n\n  👉 SublimeTextBook.com/friend/GITGUTTER\n\n  🏅 ⭐ React For Beginners ⭐\n\n  👉 ReactForBeginners.com/friend/GITGUTTER\n\n\n  Join 15,000 other developers already learning with Wes Bos.\n\n  These are fantastic resources - 100% money back guarantee! 🌟"
+					},
+					"NgAAAC0DAAAAAAAALgMAAAAAAAAAAAAALgMAAAAAAAAvAwAAAAAAAAAAAAAvAwAAAAAAADgDAAAAAAAAAAAAADgDAAAAAAAAOQMAAAAAAAAAAAAAOQMAAAAAAABCAwAAAAAAAAAAAABCAwAAAAAAAEMDAAAAAAAAAAAAAEMDAAAAAAAARAMAAAAAAAAAAAAARAMAAAAAAABpAwAAAAAAAAAAAABpAwAAAAAAAGoDAAAAAAAAAAAAAGoDAAAAAAAAawMAAAAAAAAAAAAAawMAAAAAAACDAwAAAAAAAAAAAACDAwAAAAAAAIQDAAAAAAAAAAAAAIQDAAAAAAAAhQMAAAAAAAAAAAAAhQMAAAAAAACGAwAAAAAAAAAAAACGAwAAAAAAALIDAAAAAAAAAAAAALIDAAAAAAAAswMAAAAAAAAAAAAAswMAAAAAAAC0AwAAAAAAAAAAAAC0AwAAAAAAAPMDAAAAAAAAAAAAAPMDAAAAAAAA9AMAAAAAAAAAAAAA9AMAAAAAAAD1AwAAAAAAAAAAAAD1AwAAAAAAACkEAAAAAAAAAAAAACkEAAAAAAAAKgQAAAAAAAAAAAAAKgQAAAAAAABeBAAAAAAAAAAAAABeBAAAAAAAAF8EAAAAAAAAAAAAAF8EAAAAAAAAkwQAAAAAAAAAAAAAkwQAAAAAAACUBAAAAAAAAAAAAACUBAAAAAAAAMgEAAAAAAAAAAAAAMgEAAAAAAAAyQQAAAAAAAAAAAAAyQQAAAAAAAD9BAAAAAAAAAAAAAD9BAAAAAAAAP4EAAAAAAAAAAAAAP4EAAAAAAAA/wQAAAAAAAAAAAAA/wQAAAAAAAAKBQAAAAAAAAAAAAAKBQAAAAAAAAsFAAAAAAAAAAAAAAsFAAAAAAAADAUAAAAAAAAAAAAADAUAAAAAAAAnBQAAAAAAAAAAAAAnBQAAAAAAACgFAAAAAAAAAAAAACgFAAAAAAAAKQUAAAAAAAAAAAAAKQUAAAAAAABCBQAAAAAAAAAAAABCBQAAAAAAAEMFAAAAAAAAAAAAAEMFAAAAAAAARAUAAAAAAAAAAAAARAUAAAAAAABsBQAAAAAAAAAAAABsBQAAAAAAAG0FAAAAAAAAAAAAAG0FAAAAAAAAbgUAAAAAAAAAAAAAbgUAAAAAAACJBQAAAAAAAAAAAACJBQAAAAAAAIoFAAAAAAAAAAAAAIoFAAAAAAAAiwUAAAAAAAAAAAAAiwUAAAAAAAC1BQAAAAAAAAAAAAC1BQAAAAAAALYFAAAAAAAAAAAAALYFAAAAAAAAtwUAAAAAAAAAAAAAtwUAAAAAAAC4BQAAAAAAAAAAAAC4BQAAAAAAAPUFAAAAAAAAAAAAAPUFAAAAAAAA9gUAAAAAAAAAAAAA9gUAAAAAAAD3BQAAAAAAAAAAAAD3BQAAAAAAADUGAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC0DAAAAAAAALQMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\nAutoPEP8\n--------\n\n  Sublime Auto PEP8 Formatting\n  (https://github.com/wistful/SublimeAutoPEP8)\n\n  Automatically formats Python code to conform to the PEP 8 style guide using autopep8 module\n  Supports ST3 only.\n\n  **Note**: The _walrus_(`if thing := foo.bar.baz: pass`) operator is not supported. \n  Auto-formatting is running by SublimeText python interpreter, \n  which is locked to version 3.3, and _walrus_ operator is supporter starting python3.8.\n\n  Features:\n      format / preview code according PEP8\n      format / preview selected text\n      format / preview all python modules in folder\n      side bar menu\n      formated code while saving\n\n  Using:\n      SideBar - right click on the file(s) or folder(s)\n      Active view - right click on the view\n      Selected text - right click on the selected text\n      On Save - provide by settings: option format_on_save\n      Command Palette - bring up the Command Palette and select `PEP8: Format Code` or `PEP8: Preview Changes`\n      Hotkeys - `Command/Control + Shift + 8` to format code, `Command/Control + 8` to preview changes"
+					},
+					"MgAAADUGAAAAAAAANgYAAAAAAAAAAAAANgYAAAAAAAA3BgAAAAAAAAAAAAA3BgAAAAAAAD8GAAAAAAAAAAAAAD8GAAAAAAAAQAYAAAAAAAAAAAAAQAYAAAAAAABIBgAAAAAAAAAAAABIBgAAAAAAAEkGAAAAAAAAAAAAAEkGAAAAAAAASgYAAAAAAAAAAAAASgYAAAAAAABoBgAAAAAAAAAAAABoBgAAAAAAAGkGAAAAAAAAAAAAAGkGAAAAAAAAlwYAAAAAAAAAAAAAlwYAAAAAAACYBgAAAAAAAAAAAACYBgAAAAAAAJkGAAAAAAAAAAAAAJkGAAAAAAAA9gYAAAAAAAAAAAAA9gYAAAAAAAD3BgAAAAAAAAAAAAD3BgAAAAAAAAsHAAAAAAAAAAAAAAsHAAAAAAAADAcAAAAAAAAAAAAADAcAAAAAAAANBwAAAAAAAAAAAAANBwAAAAAAAGIHAAAAAAAAAAAAAGIHAAAAAAAAYwcAAAAAAAAAAAAAYwcAAAAAAACjBwAAAAAAAAAAAACjBwAAAAAAAKQHAAAAAAAAAAAAAKQHAAAAAAAA/AcAAAAAAAAAAAAA/AcAAAAAAAD9BwAAAAAAAAAAAAD9BwAAAAAAAP4HAAAAAAAAAAAAAP4HAAAAAAAACQgAAAAAAAAAAAAACQgAAAAAAAAKCAAAAAAAAAAAAAAKCAAAAAAAADQIAAAAAAAAAAAAADQIAAAAAAAANQgAAAAAAAAAAAAANQgAAAAAAABZCAAAAAAAAAAAAABZCAAAAAAAAFoIAAAAAAAAAAAAAFoIAAAAAAAAjQgAAAAAAAAAAAAAjQgAAAAAAACOCAAAAAAAAAAAAACOCAAAAAAAAKEIAAAAAAAAAAAAAKEIAAAAAAAAoggAAAAAAAAAAAAAoggAAAAAAADCCAAAAAAAAAAAAADCCAAAAAAAAMMIAAAAAAAAAAAAAMMIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADMCAAAAAAAAAAAAADMCAAAAAAAAM0IAAAAAAAAAAAAAM0IAAAAAAAABAkAAAAAAAAAAAAABAkAAAAAAAAFCQAAAAAAAAAAAAAFCQAAAAAAADAJAAAAAAAAAAAAADAJAAAAAAAAMQkAAAAAAAAAAAAAMQkAAAAAAABnCQAAAAAAAAAAAABnCQAAAAAAAGgJAAAAAAAAAAAAAGgJAAAAAAAAogkAAAAAAAAAAAAAogkAAAAAAACjCQAAAAAAAAAAAACjCQAAAAAAABEKAAAAAAAAAAAAABEKAAAAAAAAEgoAAAAAAAAAAAAAEgoAAAAAAAB4CgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADUGAAAAAAAANQYAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n\nSublimeLinter\n-------------\n\n\n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n\n\n  Welcome to SublimeLinter, a linter framework for Sublime Text.\n\n  Linters are not included, they must be installed separately.\n  Get them from Package Control: https://packagecontrol.io/search/SublimeLinter\n\n\n  For complete documentation on how to use and configure SublimeLinter,\n  please see: http://www.sublimelinter.com\n\n  To report issues: https://github.com/SublimeLinter/SublimeLinter"
+					},
+					"IwAAAHgKAAAAAAAAeQoAAAAAAAAAAAAAeQoAAAAAAAB6CgAAAAAAAAAAAAB6CgAAAAAAAIcKAAAAAAAAAAAAAIcKAAAAAAAAiAoAAAAAAAAAAAAAiAoAAAAAAACVCgAAAAAAAAAAAACVCgAAAAAAAJYKAAAAAAAAAAAAAJYKAAAAAAAAlwoAAAAAAAAAAAAAlwoAAAAAAACYCgAAAAAAAAAAAACYCgAAAAAAANAKAAAAAAAAAAAAANAKAAAAAAAA0QoAAAAAAAAAAAAA0QoAAAAAAAAUCwAAAAAAAAAAAAAUCwAAAAAAABULAAAAAAAAAAAAABULAAAAAAAAWQsAAAAAAAAAAAAAWQsAAAAAAABaCwAAAAAAAAAAAABaCwAAAAAAAJsLAAAAAAAAAAAAAJsLAAAAAAAAnAsAAAAAAAAAAAAAnAsAAAAAAADdCwAAAAAAAAAAAADdCwAAAAAAAN4LAAAAAAAAAAAAAN4LAAAAAAAA3wsAAAAAAAAAAAAA3wsAAAAAAADgCwAAAAAAAAAAAADgCwAAAAAAACAMAAAAAAAAAAAAACAMAAAAAAAAIQwAAAAAAAAAAAAAIQwAAAAAAAAiDAAAAAAAAAAAAAAiDAAAAAAAAGAMAAAAAAAAAAAAAGAMAAAAAAAAYQwAAAAAAAAAAAAAYQwAAAAAAACwDAAAAAAAAAAAAACwDAAAAAAAALEMAAAAAAAAAAAAALEMAAAAAAAAsgwAAAAAAAAAAAAAsgwAAAAAAACzDAAAAAAAAAAAAACzDAAAAAAAAPoMAAAAAAAAAAAAAPoMAAAAAAAA+wwAAAAAAAAAAAAA+wwAAAAAAAAlDQAAAAAAAAAAAAAlDQAAAAAAACYNAAAAAAAAAAAAACYNAAAAAAAAJw0AAAAAAAAAAAAAJw0AAAAAAABpDQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgKAAAAAAAAeAoAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ter",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"lsp",
+				"SublimeLinter: Open diagnostics panel"
+			],
+			[
+				"lsp tog",
+				"SublimeLinter: Open diagnostics panel"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"tabni",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"comand",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/yrjo/workspace/stuff/python/cs50p/nutrition"
+	],
+	"file_history":
+	[
+		"/home/yrjo/tmp/sublime_test.py",
+		"/home/yrjo/tmp/sample.py",
+		"/home/yrjo/.config/sublime-text/Packages/AutoDocstring/Default (Linux).sublime-keymap",
+		"/home/yrjo/.config/sublime-text/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+		"/home/yrjo/.config/sublime-text/Packages/TabNine/TabNine.sublime-settings",
+		"/home/yrjo/.config/sublime-text/Packages/User/TabNine.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1460,
+								1460
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "/home/yrjo",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								132,
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"terminus.highlight_counter": 142,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"/usr/bin/zsh",
+									"-i",
+									"-l"
+								],
+								"cwd": "/home/yrjo",
+								"default_title": "Login Shell",
+								"env":
+								{
+									"LANG": "en_US.UTF-8",
+									"TERM": "linux",
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 36.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/yrjo/workspace/stuff/python/cs50p/pyproject.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "nutrition.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "nutrition.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 56.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3433,
+								3433
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"tab_width": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.0
+	},
+	"output.Terminus":
+	{
+		"height": 410.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 372.0
+	},
+	"output.autopep8":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "nutrition.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

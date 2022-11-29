@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "Python template"
+authors = ["Saci <saciperere@riseup.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.18.1"
+mypy = "^0.770"
+black = "^19.10b0"
+isort = "^4.3.21"
+autoflake = "^1.3.1"
+flake8 = "^3.7.9"
+pytest = "^5.4.1"
+sqlalchemy-stubs = "^0.3"
+pytest-cov = "^2.8.1"
+python-lsp-server = {extras = ["all"], version = "^1.2.4"}
+pyls-flake8 = "^0.4.0"
+mypy-ls = "^0.5.1"
+pyls-isort = "^0.2.2"
+python-lsp-black = "^1.0.0"
+pyls-memestra = "^0.0.15"
+pylsp-rope = "^0.1.6"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
