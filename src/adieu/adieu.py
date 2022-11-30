@@ -1,4 +1,5 @@
 import sys
+from typing import List
 
 import inflect
 
@@ -6,11 +7,11 @@ import inflect
 def main():
     """"""
     inflect_eng = inflect.engine()
-    adieu = "Adieu,adieu, to "
-    names = []
+    adieu: str = "Adieu,adieu, to "
+    names: List[str]
     while True:
         try:
-            name = input("Name: ").strip()
+            name: str = input("Name: ").strip()
             if name == "":
                 break
             names.append(name)
