@@ -1,8 +1,8 @@
 # Reads a CSV file using csv.DictReader
 
-import csv
 
 students = []
+import csv
 
 with open("students2.csv") as file:
     reader = csv.DictReader(file)

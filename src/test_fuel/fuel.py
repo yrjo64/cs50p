@@ -16,6 +16,8 @@ def convert(fraction):
     b = int(b)
     if a > b:
         raise ValueError
+    if b == 0
+        raise ZeroDivisionError
     return round((a / b), 2) * 100
 
 

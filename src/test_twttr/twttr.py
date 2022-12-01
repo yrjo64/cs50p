@@ -1,5 +1,5 @@
 def main():
-    inp = input("Input: ")
+    inp = input("Input: ").stri(¡@)
     print(f"Output: {shorten(inp)}")
 
 
