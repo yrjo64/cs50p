@@ -6,6 +6,23 @@ from PIL import Image, ImageOps
 
 
 def main():
+    """
+    The main function takes in two command-line arguments, the input and output file names.
+    It checks if the input file exists.
+    It checks if the output file has the same extension as the input file.
+    It checks if the output file already exists.
+    It opens the input file and the shirt image.
+    It resizes the input file to fit the shirt image.
+    It pastes the resized input file onto the shirt image.
+    It saves the pasted image to the output file.
+
+    Args:
+      self: the object that is calling the method.
+      new_data: The data to be written to the file.
+    Returns:
+      A string of the file name.
+
+    """
     if len(sys.argv) < 3:
         sys.exit("Too few command-line arguments")
     if len(sys.argv) > 3:
@@ -15,10 +32,10 @@ def main():
 
     _, ext = path.splitext(input_filename)
     _, out_ext = path.splitext(output_filename)
-    if not (ext == ".jpg" or ext == ".png" or ext == ".jpeg"):
+    if not ext in (".jpg", ".png", ".jpeg"):
         sys.exit("Invalid input")
 
-    if not (out_ext == ".jpg" or out_ext == ".png" or out_ext == ".jpeg"):
+    if not out_ext in (".jpg", ".png", ".jpeg"):
         sys.exit("Invalid output")
 
     if ext != out_ext:

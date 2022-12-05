@@ -16,7 +16,7 @@ def convert(fraction):
     b = int(b)
     if a > b:
         raise ValueError
-    if b == 0
+    if b == 0:
         raise ZeroDivisionError
     return round((a / b), 2) * 100
 
@@ -26,8 +26,7 @@ def gauge(percentage):
         return "E"
     elif percentage >= 99:
         return "F"
-    else:
-        return f"{int(percentage)}%"
+    return f"{int(percentage)}%"
 
 
 if __name__ == "__main__":

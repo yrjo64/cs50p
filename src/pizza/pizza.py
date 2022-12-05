@@ -24,9 +24,7 @@ def main():
         items = []
         for row in reader:
             item = []
-            item.append(row[headers[0]])
-            item.append(row[headers[1]])
-            item.append(row[headers[2]])
+            item.extend(row[headers[0]], row[headers[1]], row[headers[2]])
             items.append(item)
     print(tabulate(items, headers=headers, tablefmt="grid"))
 

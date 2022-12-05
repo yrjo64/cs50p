@@ -10,8 +10,7 @@ def value(greeting):
         return 0
     elif greeting.startswith("h"):
         return 20
-    else:
-        return 100
+    return 100
 
 
 if __name__ == "__main__":

@@ -9,16 +9,16 @@ def main() -> None:
         print("dinner time")
     
 def convert(time: str) -> float:
-    hourss: str, mins: str = time.split(":")
+    hourss, mins = time.split(":")
     hours: int = int(hourss)
     # chec for 12h clock
     pm: str = ""
     if mins.endswith(".m."):
-        mins: str, pm: str = mins.split(" ")
+        mins, pm = mins.split(" ")
     if pm == "p.m.":
         hours += 12
     return round(hours + int(mins)/60, 2)
 
-
+ 
 if __name__ == "__main__":
     main()

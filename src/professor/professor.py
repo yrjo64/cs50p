@@ -21,7 +21,6 @@ def main():
             else:
                 print("EEE")
                 fail += 1
-                continue
         if fail == 3:
             print(f"{a} + {b} = {a+b}")
         rounds += 1

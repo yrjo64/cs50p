@@ -17,6 +17,7 @@ def get_input(prompt):
             b = int(b)
             if a > b:
                 continue
+
             return round(round((a / b), 2) * 100)
         except (ValueError, ZeroDivisionError):
             continue
