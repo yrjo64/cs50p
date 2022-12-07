@@ -8,7 +8,7 @@ def main():
         print(f"{int(fraction)}%")
 
 
-def get_input(prompt):
+def get_input(prompt: str):
     while True:
         inp = input(prompt).strip()
         try:

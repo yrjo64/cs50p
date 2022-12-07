@@ -7,7 +7,8 @@ def main() -> None:
         print("lunch time")
     elif 18.00 <= time <= 19.00:
         print("dinner time")
-    
+
+
 def convert(time: str) -> float:
     hourss, mins = time.split(":")
     hours: int = int(hourss)
@@ -17,8 +18,8 @@ def convert(time: str) -> float:
         mins, pm = mins.split(" ")
     if pm == "p.m.":
         hours += 12
-    return round(hours + int(mins)/60, 2)
+    return round(hours + int(mins) / 60, 2)
 
- 
+
 if __name__ == "__main__":
     main()

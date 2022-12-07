@@ -3,7 +3,7 @@ def main():
     print(f"${value(inp)}")
 
 
-def value(greeting):
+def value(greeting: str):
 
     greeting = greeting.strip().lower()
     if greeting.startswith("hello"):
