@@ -1,3 +1,4 @@
+
 def main():
     fraction = get_input("Fraction: ")
     if fraction <= 1:
